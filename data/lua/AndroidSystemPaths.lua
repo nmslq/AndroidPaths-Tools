@@ -3,4 +3,6 @@ function androidPath()
    SUtil.systemFilesGetUrl()
    files.getUrlOpen()
    forAndroidPathsCode()
+   forSystemPathGet()
+   androidXmlRepath()
 end
