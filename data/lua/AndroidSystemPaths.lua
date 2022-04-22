@@ -18,5 +18,6 @@ function androidPath()
    system.androidPathJpg()
    system.androidPathXml()
    system.androidPathfolder()
+   androidStorage.getPathSystem()
    return androidSystemPath
 end
