@@ -162,4 +162,27 @@ public class AndroidTools extends Extension {
 	public void onPause() {}
 	
 	/**
-	 * Called af
+	 * Called after {@link #onStop} when the current activity is being 
+	 * re-displayed to the user (the user has navigated back to it).
+	 */
+	public void onRestart() {}
+	
+	/**
+	 * Called after {@link #onRestart}, or {@link #onPause}, for your activity 
+	 * to start interacting with the user.
+	 */
+	public void onResume() {}
+	
+	/**
+	 * Called after {@link #onCreate} &mdash; or after {@link #onRestart} when  
+	 * the activity had been stopped, but is now again being displayed to the 
+	 * user.
+	 */
+	public void onStart() {}
+	
+	/**
+	 * Called when the activity is no longer visible to the user, because 
+	 * another activity has been resumed and is covering this one. 
+	 */
+	public void onStop() {}
+}
