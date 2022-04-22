@@ -1,4 +1,4 @@
-# AndroidPaths
+# AndroidPaths-Tools
 the some android path tools
 # Q:how to use?
 in your game's build.xml code this
