@@ -1,3 +1,8 @@
+pack android;
+pack systemPath;
+pack haxe;
+pack lua;
+
 function androidPath()
    system.androidGetPathSUtil()
    SUtil.systemFilesGetUrl()
