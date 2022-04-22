@@ -2,6 +2,7 @@
   "name": "AndroidPaths-Tools",
   "url": "",
   "license": "MIT",
+  "codeTarget":"haxe",
   "tags": [],
   "description": "",
   "version": "1.0.0",
