@@ -1,7 +1,7 @@
-pack android;
-pack systemPath;
-pack haxe;
-pack lua;
+local pack android;
+local pack systemPath;
+local pack haxe;
+local pack lua;
 
 function androidPath()
    system.androidGetPathSUtil()
