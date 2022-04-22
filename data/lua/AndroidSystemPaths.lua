@@ -2,6 +2,8 @@ local pack android;
 local pack systemPath;
 local pack haxe;
 local pack lua;
+local pack json;
+local pack xml;
 
 function androidPath()
    system.androidGetPathSUtil()
@@ -16,4 +18,5 @@ function androidPath()
    system.androidPathJpg()
    system.androidPathXml()
    system.androidPathfolder()
+   return androidSystemPath
 end
