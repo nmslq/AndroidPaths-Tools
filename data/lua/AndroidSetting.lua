@@ -1,3 +1,4 @@
+if android
 local pack android;
 local pack apk;
 local pack lua;
@@ -6,6 +7,7 @@ local pack json;
 local pack xml;
 local pack setting;
 local system.io;
+end
 
 function androidSetting()
    androidSDK.setVersion(1.0.0)
