@@ -3,6 +3,7 @@ package android;
 #if android
 import lime.system.JNI;
 import android.stuff.*;
+import android.Hardware;
 #end
 
 class AndroidTools {
