@@ -5,10 +5,13 @@ local pack haxe;
 local pack json;
 local pack xml;
 local pack setting;
+local system.io;
 
 function androidSetting()
-   androidSDK.version(1.0.0)
-   androidJDK.version(1.0.0)
-   androidNDK.version(1.0.0)
+   androidSDK.setVersion(1.0.0)
+   androidJDK.setVersion(1.0.0)
+   androidNDK.setVersion(1.0.0)
    systemPath.setting(issuseSend,true)
+   androidSystem.storageSettingGet()
+   return androidSetting;
 end
