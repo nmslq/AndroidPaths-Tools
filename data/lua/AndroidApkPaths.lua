@@ -20,5 +20,5 @@ function androidApkPath()
    apk.androidPathJpg()
    apk.androidPathXml()
    apk.androidPathfolder()
-   return androidApkPath
+   return androidApkPath;
 end
