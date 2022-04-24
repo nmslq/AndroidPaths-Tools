@@ -1,3 +1,4 @@
+if
 local pack android;
 local pack apk;
 local pack lua;
@@ -5,6 +6,7 @@ local pack haxe;
 local pack json;
 local pack xml;
 local pack paths;
+end
 
 function androidApkPath()
    apk.androidGetPathSUtil()
