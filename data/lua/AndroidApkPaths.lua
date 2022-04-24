@@ -1,4 +1,4 @@
-if
+if android
 local pack android;
 local pack apk;
 local pack lua;
