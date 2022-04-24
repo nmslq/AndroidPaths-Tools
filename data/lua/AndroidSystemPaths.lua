@@ -1,3 +1,4 @@
+if android
 local pack android;
 local pack systemPath;
 local pack haxe;
@@ -6,6 +7,7 @@ local pack json;
 local pack xml;
 local system.io;
 local pack filePath;
+end
 
 function androidPath()
    system.androidGetPathSUtil()
@@ -24,5 +26,5 @@ function androidPath()
    system.androidPathXml()
    system.androidPathfolder()
    androidStorage.getPathSystem()
-   return androidSystemPath
+   return androidSystemPath;
 end
