@@ -1,4 +1,3 @@
-packages android;
 local pack android;
 local pack systemPath;
 local pack haxe;
